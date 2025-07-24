@@ -6,12 +6,11 @@ export default defineConfig({
     hmr: {
       host: '4jwz2zee.up.railway.app'
     }
-  }
-});
-    plugins: [
-        laravel({
-            input: ['resources/css/app.css', 'resources/js/app.js'],
-            refresh: true,
-        }),
-    ],
+  },
+  plugins: [
+    laravel({
+      input: ['resources/css/app.css', 'resources/js/app.js'],
+      refresh: true,
+    }),
+  ],
 });
